@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(115deg, #d70c0c, #3d1776);
+    position: relative;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.quote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: black;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: -40px; /* Adjust the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center the button horizontally */
+}
+
+button:hover {
+    background-color: #5d84ae;
+}
